@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (master by default)
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
+media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -24,6 +24,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "_pages" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
