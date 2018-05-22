@@ -1,6 +1,6 @@
 ---
 layout: page
-title: test
+title: Test
 thumbnail: /assets/img/uploads/placeholder-4x3.gif
 ---
-this is a test page.
+This is a test page. Please work.
