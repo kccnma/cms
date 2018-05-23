@@ -1,9 +1,6 @@
 ---
 layout: page
 title: About
-order: 2
-permalink: /about/
+thumbnail: /assets/img/uploads/placeholder-2x1.gif
 ---
-
-This is the about page. Working?
- 
+This is the about page. Working? Yes.
