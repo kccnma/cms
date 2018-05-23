@@ -118,6 +118,9 @@
  .featured-image {
    margin-bottom: 1em;
  }
+ .featured-image.thumb-image {
+   max-width: 200px;
+ }
 
 .page-content {
   padding: $spacing-unit 0;
