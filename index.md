@@ -3,8 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 # layout: home
-layout: page
+# layout: page
+layout: default
 order: 1
 ---
-
-This is the home page yo.
+{% include_relative page/home.md %}
