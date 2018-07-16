@@ -4,8 +4,8 @@ thumbnail: /assets/img/uploads/placeholder-2x1.gif
 title: Home
 ---
 
-# NMA Static Generated Test Site
-### Using Jekyll + Netlify
+# NMA Static Generated Test Site w/ Netlify CMS
+### Build and Auto-Deploy Using Jekyll, Github, + Netlify
 This is a dev test for a potentially new static generatied website for NMA. Built using Jekyll, it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.  
 
 #### Links
