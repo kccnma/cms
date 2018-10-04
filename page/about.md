@@ -9,11 +9,16 @@ This static site is generated using [Jekyll](https://jekyllrb.com/) and was init
 
 Let's take a look at some basic content and it's default/current styling:
 
-# Heading 1
-## Heading 2
-### Heading 3
+# Heading
+
+## Heading
+
+### Heading
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 
 This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut fringilla ipsum, sed bibendum augue. Nullam euismod nec mauris elementum porta. Sed varius nisl eu lobortis fringilla. Morbi id elit sollicitudin, venenatis lacus id, cursus quam. Aliquam mollis orci vel enim fermentum adipiscing. Duis facilisis lorem a nulla porttitor sagittis.
@@ -23,30 +28,33 @@ This is a another paragraph. Suspendisse pulvinar bibendum laoreet. Suspendisse 
 This is a yet another paragraph. Vivamus eu mollis velit. Maecenas id massa libero. Aliquam accumsan mauris vulputate purus volutpat vestibulum. Phasellus sed tellus id tortor ornare molestie. Quisque massa sapien, elementum sed tortor vitae, suscipit congue massa. Curabitur tempor arcu eget leo placerat, a porta augue pharetra. Nulla velit nibh, laoreet at hendrerit sit amet, adipiscing eget dolor.
 
 #### Unordered List:
-- List Item
-- List Item
-    - Nested Unordered List:
-        - List Item
-        - List Item
-    - Nested Ordered List:
-        1. List Item
-        1. List Item
-        1. List Item
-        1. List Item
+
+* List Item
+* List Item
+  * Nested Unordered List:
+    * List Item
+    * List Item
+  * Nested Ordered List:
+    1. List Item
+    2. List Item
+    3. List Item
+    4. List Item
 
 #### Ordered List:
-- List Item
-- List Item
-    - Nested Unordered List:
-        - List Item
-        - List Item
-    - Nested Ordered List:
-        1. List Item
-        1. List Item
-        1. List Item
-        1. List Item
+
+* List Item
+* List Item
+  * Nested Unordered List:
+    * List Item
+    * List Item
+  * Nested Ordered List:
+    1. List Item
+    2. List Item
+    3. List Item
+    4. List Item
 
 #### Links:
+
 This is a [link](#).
 
 #### Blockquotes:
@@ -54,4 +62,5 @@ This is a [link](#).
 > This is a blockquote. Donec sed rhoncus massa. Suspendisse rutrum viverra felis. Vestibulum augue lacus, ullamcorper non suscipit nec, ornare et mauris. Proin mattis fermentum nibh quis gravida.
 
 #### Images
+
 ![Alt Text](https://kccnma.github.io/sitebase/examples/productsite/img/placeholder-1x1.gif)
