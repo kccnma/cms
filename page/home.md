@@ -35,3 +35,5 @@ $ jekyll serve
 #### Log:
 
 * Upon content change via CMS, [Netlify hosted static site](https://nma.netlify.com) not updating, although the [github repo](https://github.com/kccnma/cms/) files are updating, along with the [github pages hosted static site](https://kccnma.github.io/cms/).
+  * Manual deploy word (via nma admin interface)
+  * Further testing needed (added to to-do list)
