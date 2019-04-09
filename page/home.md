@@ -31,3 +31,7 @@ $ jekyll serve
 * Login to the [NMA CMS](https://nma.netlify.com/admin/) via your Netlify Identity
   * No Login? Create an account at [Netlify](https://app.netlify.com) then contact NMA for access.
 * Edit Existing Pages/Posts or Create New Ones via Your Browser
+
+#### Log:
+
+* CMS not updating?
