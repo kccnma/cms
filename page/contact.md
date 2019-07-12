@@ -2,12 +2,12 @@
 layout: page
 title: Contact
 ---
-For more general information about New Media Arts program at Kapi‘olani Community College, the Associates degree, and the admissions process to become a student, please contact:
+For more general information about the future Creative Media program at KCC, the Associates degree, and the admissions process to become a student, please contact:
 
-## Steve Harris
+## John Doe
 
-New Media Arts Counselor
+KCC CM Counselor
 
-Telephone: 808-734-9510
+Telephone: 808-123-4567
 
-Email: snharris \[at] hawaii.edu
+Email: john \[at] email.com
