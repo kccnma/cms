@@ -1,6 +1,6 @@
 ---
 layout: post
-thumbnail: /assets/img/uploads/placeholder-1x1-art1.jpg
+thumbnail: /assets/img/uploads/img_0120.jpg
 title: Another Test Post
 categories:
   - Test
