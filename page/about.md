@@ -3,9 +3,9 @@ layout: page
 thumbnail: /assets/img/uploads/placeholder-2x1.gif
 title: About
 ---
-This is the **About** sub page.
+**About** sub page.
 
-This static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
+A static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
 
 Take a look at some basic content and it's default/current styling:
 
@@ -60,6 +60,8 @@ This is a [link](#).
 #### Blockquotes:
 
 > This is a blockquote. Donec sed rhoncus massa. Suspendisse rutrum viverra felis. Vestibulum augue lacus, ullamcorper non suscipit nec, ornare et mauris. Proin mattis fermentum nibh quis gravida.
+>
+> \- Source
 
 #### Images
 
