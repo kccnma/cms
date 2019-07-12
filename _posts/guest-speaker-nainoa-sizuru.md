@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Guest Speaker Nainoa Sizuru
+title: Guest Speaker Jane Doe
 ---
 ![Nainoa](/assets/img/uploads/img_0120.jpg)
 
-Nainoa came to speak to both cohorts. It was awesome. Dude.
+Jane Doe came to speak to both cohorts. It was awesome. Thanks Jane!
