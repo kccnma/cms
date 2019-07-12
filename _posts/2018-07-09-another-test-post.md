@@ -6,4 +6,4 @@ categories:
   - Test
   - Art
 ---
-Another test post in a different category. Revised. Again with David.
+Another test post in a different category. For testing/demo purposes.
