@@ -3,11 +3,11 @@ layout: page
 thumbnail: /assets/img/uploads/placeholder-2x1.gif
 title: About
 ---
-This is the about sub page.
+This is the **About** sub page.
 
 This static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
 
-Let's take a look at some basic content and it's default/current styling:
+Take a look at some basic content and it's default/current styling:
 
 # Heading
 
