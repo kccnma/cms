@@ -5,7 +5,7 @@ title: About
 ---
 **About** sub page.
 
-This static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
+A static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
 
 Take a look at some basic content and it's default/current styling:
 
