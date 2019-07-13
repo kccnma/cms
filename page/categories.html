@@ -17,10 +17,11 @@ title: Categories
     <article class="archive-item">
       {%- if post.thumbnail -%}
       <div class="featured-image thumb-image">
-        <a href="{{ relBase }}{{ post.url }}"><img src="{{ relBase }}{{ post.thumbnail }}" alt="{{ post.title }}" /></a>
+        <a href="{{ relBase }}{{ post.url }}index.html"><img src="{{ relBase }}{{ post.thumbnail }}"
+            alt="{{ post.title }}" /></a>
       </div>
       {%- endif -%}
-      <h4><a href="{{ relBase }}{{ post.url }}">{{post.title}}</a></h4>
+      <h4><a href="{{ relBase }}{{ post.url }}index.html">{{post.title}}</a></h4>
     </article>
     {% endfor %}
   </div>
