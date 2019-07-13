@@ -1,11 +1,11 @@
 {% assign relBase = '' %}
 {% assign tempDepth = page.url | split: '/' | size | minus: 1 %}
 {% for i in (1..tempDepth) %}
-    {% assign relBase = relBase | append: "../" %}
+{% assign relBase = relBase | append: "../" %}
 {% endfor %}
 {% if relBase == '' %}
-    {% assign relBase = './' %}
-{% endif %} 
+{% assign relBase = './' %}
+{% endif %}
 
 {% assign base = '' %}
 {% assign depth = page.url | split: '/' | size  %}

@@ -24,7 +24,8 @@
         {%- if my_page.title -%}
         {%- if my_page.title == "Home" -%}
         {% else %}
-        <a class="page-link" href="{{ relBase }}{{my_page.url}}index.html">{{ my_page.title | escape }}</a>
+        <a class="page-link"
+          href="{{ relBase }}{{my_page.url  | remove_first: '/' }}index.html">{{ my_page.title | escape }}</a>
         {% endif %}
         {%- endif -%}
         {%- endfor -%}
