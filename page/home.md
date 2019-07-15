@@ -34,6 +34,7 @@ $ jekyll serve
 
 #### Log:
 
-* Upon content change via CMS, [Netlify hosted static site](https://nma.netlify.com) not updating, although the [github repo](https://github.com/kccnma/cms/) files are updating, along with the [github pages hosted static site](https://kccnma.github.io/cms/).
-  * Netlify-hosted static site currently requires a manual deploy (via netlify admin interface)
+* Upon content change via CMS, the [Netlify hosted static site](https://nma.netlify.com) is not auto-updating, although the [github repo](https://github.com/kccnma/cms/) files are updating, along with the [github pages hosted static site](https://kccnma.github.io/cms/).
+  * Netlify-hosted static site currently requires a manual deploy (via netlify admin interface). This was not always the case.
+  * This could be interpreted as a good thing, if we use the gh-pages site as a staging server and the netlify site as the production server.
   * Further testing needed (added to to-do list)
