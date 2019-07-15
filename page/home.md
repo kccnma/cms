@@ -7,7 +7,7 @@ title: Home
 
 ### Build and Auto-Deploy Using Jekyll, Github, + Netlify
 
-This is a temporary dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using [Jekyll](https://jekyllrb.com/), it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.  NMA Intern David, make this kick ass please.
+This is a temporary dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using [Jekyll](https://jekyllrb.com/), it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.  
 
 ### Links
 
