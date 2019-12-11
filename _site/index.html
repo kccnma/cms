@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="./assets/main.css">
   <link type="application/atom+xml" rel="alternate" href="https://nma.netlify.com/feed.xml" title="NMA" />
   
-</head><body>
+</head><body class="layout-default">
 
 
 
@@ -52,13 +52,16 @@
 
       <div class="trigger">
         <a class="page-link"
-          href="./page/about/index.html">About</a>
+          href="./about/index.html">About</a>
         
         <a class="page-link"
-          href="./page/categories/index.html">Categories</a>
+          href="./categories/index.html">Categories</a>
         
         <a class="page-link"
-          href="./page/contact/index.html">Contact</a>
+          href="./contact/index.html">Contact</a>
+        
+        <a class="page-link"
+          href="./log/index.html">Log</a>
         
         <a class="page-link"
           href="./posts/index.html">Posts</a>
@@ -66,12 +69,7 @@
     </nav></div>
 </header><main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <hr />
-<p>layout: page
-thumbnail: /assets/img/uploads/placeholder-2x1.gif
-title: Home
-—</p>
-<h1 id="nma-static-generated-test-site-w-netlify-cms">NMA Static Generated Test Site w/ Netlify CMS</h1>
+      <h1 id="nma-static-generated-test-site-w-netlify-cms">NMA Static Generated Test Site w/ Netlify CMS</h1>
 
 <h3 id="build-and-auto-deploy-using-jekyll-github--netlify">Build and Auto-Deploy Using Jekyll, Github, + Netlify</h3>
 
@@ -94,10 +92,12 @@ title: Home
 </ul>
 
 <p>When developing locally:</p>
+
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll serve
 </code></pre></div></div>
 
 <p>When ready to deploy:</p>
+
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll build
 </code></pre></div></div>
 
@@ -133,12 +133,16 @@ title: Home
   </li>
   <li>Further testing needed (added to to-do list)
     <ul>
-      <li>need to re-link netlify and github repo?</li>
-      <li><del>need to manually add/create/edit netlify webhook?</del>
+      <li>HOLD - need to re-link netlify and github repo?</li>
+      <li>DONE - <del>need to manually add/create/edit netlify webhook?</del>
         <ul>
-          <li>new Netlify build hook created via Netlify App on 12-11-19</li>
-          <li>old GitHub webhook updated (url) on 12-11-19 (to match the new Netlify build hook)</li>
-          <li>NEW SETUP TESTED + WORKED on 12-11-19</li>
+          <li>The fix:
+            <ul>
+              <li>new Netlify build hook created via Netlify App on 12-11-19</li>
+              <li>old GitHub webhook updated (url) on 12-11-19 (to match the new Netlify build hook)</li>
+              <li>NEW SETUP TESTED + WORKED on 12-11-19</li>
+            </ul>
+          </li>
         </ul>
       </li>
     </ul>

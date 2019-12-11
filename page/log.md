@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Log
+permalink: /log/
 ---
 ## Updates/changes:
 

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: posts
 title: Posts
 order: 3
 permalink: /posts/

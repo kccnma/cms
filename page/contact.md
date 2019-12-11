@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+permalink: /contact/
 ---
 For more general information about the future Creative Media program at KCC, the Associates degree, and the admissions process to become a student, please contact:
 

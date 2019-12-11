@@ -482,7 +482,3 @@ table {
     color: #008080; }
   .highlight .il {
     color: #099; }
-
-.wrapper hr:first-child,
-.wrapper hr:first-child + p {
-  display: none; }
