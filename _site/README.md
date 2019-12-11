@@ -35,4 +35,4 @@ $ jekyll build
 * Locally: run `jekyll build` then committ + pushing to master branch
 * Remotely:
   * On Publish via [Netlify CMS admin UI](https://nma.netlify.com/admin/)
-  * Manually trigger via [Netlify](https://app.netlify.com)
+  * Manually trigger via [Netlify App > Deploys](https://app.netlify.com/sites/nma/deploys)
