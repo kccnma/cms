@@ -21,9 +21,14 @@ This is a temporary dev test for a potentially new static generatid website for 
 * Clone the [NMA CMS Repo](https://github.com/kccnma/cms) via Github
 * Use your Terminal/CLI to cd to the the project directory and run Jekyll locally 
 
-
+When developing locally:
 ```
 $ jekyll serve
+```
+
+When ready to deploy:
+```
+$ jekyll build
 ```
 
 #### To manage content online via the Admin CMS:
@@ -32,7 +37,7 @@ $ jekyll serve
   * No Login? Create an account at [Netlify](https://app.netlify.com) then contact NMA for access.
 * Edit Existing Pages/Posts or Create New Ones via Your Browser
 
-#### Log:
+### Log:
 
 * Upon content change via CMS, the [Netlify hosted static site](https://nma.netlify.com) is not auto-updating, although the [github repo](https://github.com/kccnma/cms/) files are updating, along with the [github pages hosted static site](https://kccnma.github.io/cms/).
   * Netlify-hosted static site currently requires a manual deploy (via netlify admin interface). This was not always the case.

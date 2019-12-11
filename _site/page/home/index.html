@@ -19,15 +19,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This is a site description coming from _config,yml so that it will appear in your document head meta (for Google search results), in your feed.xml site description, and in your footer (if you want it to)." />
 <meta property="og:description" content="This is a site description coming from _config,yml so that it will appear in your document head meta (for Google search results), in your feed.xml site description, and in your footer (if you want it to)." />
-<link rel="canonical" href="http://localhost:4000/page/home/" />
-<meta property="og:url" content="http://localhost:4000/page/home/" />
+<link rel="canonical" href="https://nma.netlify.com/page/home/" />
+<meta property="og:url" content="https://nma.netlify.com/page/home/" />
 <meta property="og:site_name" content="NMA" />
 <script type="application/ld+json">
-{"description":"This is a site description coming from _config,yml so that it will appear in your document head meta (for Google search results), in your feed.xml site description, and in your footer (if you want it to).","@type":"WebPage","url":"http://localhost:4000/page/home/","headline":"Home","@context":"http://schema.org"}</script>
+{"description":"This is a site description coming from _config,yml so that it will appear in your document head meta (for Google search results), in your feed.xml site description, and in your footer (if you want it to).","@type":"WebPage","url":"https://nma.netlify.com/page/home/","headline":"Home","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="../../assets/main.css">
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="NMA" />
+  <link type="application/atom+xml" rel="alternate" href="https://nma.netlify.com/feed.xml" title="NMA" />
   
 </head><body>
 
@@ -89,7 +89,7 @@
 
 <h3 id="build-and-auto-deploy-using-jekyll-github--netlify">Build and Auto-Deploy Using Jekyll, Github, + Netlify</h3>
 
-<p>This is a temporary dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using <a href="https://jekyllrb.com/">Jekyll</a>, it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.  NMA Intern David, make this kick ass please.</p>
+<p>This is a temporary dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using <a href="https://jekyllrb.com/">Jekyll</a>, it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.</p>
 
 <h3 id="links">Links</h3>
 
@@ -107,7 +107,12 @@
   <li>Use your Terminal/CLI to cd to the the project directory and run Jekyll locally</li>
 </ul>
 
+<p>When developing locally:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll serve
+</code></pre></div></div>
+
+<p>When ready to deploy:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll build
 </code></pre></div></div>
 
 <h4 id="to-manage-content-online-via-the-admin-cms">To manage content online via the Admin CMS:</h4>
@@ -121,15 +126,26 @@
   <li>Edit Existing Pages/Posts or Create New Ones via Your Browser</li>
 </ul>
 
-<h4 id="log">Log:</h4>
+<h3 id="log">Log:</h3>
 
 <ul>
-  <li>Upon content change via CMS, <a href="https://nma.netlify.com">Netlify hosted static site</a> not updating, although the <a href="https://github.com/kccnma/cms/">github repo</a> files are updating, along with the <a href="https://kccnma.github.io/cms/">github pages hosted static site</a>.
+  <li>Upon content change via CMS, the <a href="https://nma.netlify.com">Netlify hosted static site</a> is not auto-updating, although the <a href="https://github.com/kccnma/cms/">github repo</a> files are updating, along with the <a href="https://kccnma.github.io/cms/">github pages hosted static site</a>.
     <ul>
-      <li>Netlify-hosted static site currently requires a manual deploy (via netlify admin interface)</li>
-      <li>Further testing needed (added to to-do list)</li>
+      <li>Netlify-hosted static site currently requires a manual deploy (via netlify admin interface). This was not always the case.</li>
+      <li>This could be interpreted as a good thing, if we use the gh-pages site as a staging server and the netlify site as the production server.</li>
     </ul>
   </li>
+  <li>New posted are not working when added via Netlify CMS interface.
+    <ul>
+      <li>Old posted can be modified OK.</li>
+      <li>New posts are able to be added/created OK (via the admin cms interface), but they are not viewable via the static generated site.
+        <ul>
+          <li>Observation: new posted do not get a date time-stamp at the beginning of the md file name.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Further testing needed (added to to-do list)</li>
 </ul>
 
   </div>
