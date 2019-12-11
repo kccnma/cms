@@ -48,4 +48,7 @@ $ jekyll build
     * Observation: new posted do not get a date time-stamp at the beginning of the md file name.
 * Further testing needed (added to to-do list)
   * need to re-link netlify and github repo?
-  * need to manually add/create/edit netlify webhook?
+  * ~~need to manually add/create/edit netlify webhook?~~ 
+    * new Netlify build hook created via Netlify App on 12-11-19
+    * old GitHub webhook updated (url) on 12-11-19 (to match the new Netlify build hook)
+    * NEW SETUP TESTED + WORKED on 12-11-19
