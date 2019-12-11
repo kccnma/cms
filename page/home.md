@@ -22,11 +22,13 @@ This is a temporary dev test for a potentially new static generatid website for 
 * Use your Terminal/CLI to cd to the the project directory and run Jekyll locally 
 
 When developing locally:
+
 ```
 $ jekyll serve
 ```
 
 When ready to deploy:
+
 ```
 $ jekyll build
 ```
@@ -47,8 +49,9 @@ $ jekyll build
   * New posts are able to be added/created OK (via the admin cms interface), but they are not viewable via the static generated site.
     * Observation: new posted do not get a date time-stamp at the beginning of the md file name.
 * Further testing needed (added to to-do list)
-  * need to re-link netlify and github repo?
-  * ~~need to manually add/create/edit netlify webhook?~~ 
-    * new Netlify build hook created via Netlify App on 12-11-19
-    * old GitHub webhook updated (url) on 12-11-19 (to match the new Netlify build hook)
-    * NEW SETUP TESTED + WORKED on 12-11-19
+  * HOLD - need to re-link netlify and github repo? 
+  * DONE - ~~need to manually add/create/edit netlify webhook?~~ 
+    * The fix:
+      * new Netlify build hook created via Netlify App on 12-11-19
+      * old GitHub webhook updated (url) on 12-11-19 (to match the new Netlify build hook)
+      * NEW SETUP TESTED + WORKED on 12-11-19
