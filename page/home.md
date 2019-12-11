@@ -47,4 +47,4 @@ $ jekyll build
   * New posts are able to be added/created OK (via the admin cms interface), but they are not viewable via the static generated site.
     * Observation: new posted do not get a date time-stamp at the beginning of the md file name.
 * Further testing needed (added to to-do list)
-  * need to re-link netlify and github repo
+  * need to re-link netlify and github repo?
