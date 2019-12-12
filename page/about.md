@@ -13,9 +13,9 @@ A static site is generated using [Jekyll](https://jekyllrb.com/) and was initial
 
 Links to sub pages currently being tested:
 
-* [Log](/log/) page
-* [Posts](/posts/) page (list of all posts)
-* [Categories](/categories/) page (list of all posts with category associations)
+* [Log](./log/) page
+* [Posts](./posts/) page (list of all posts)
+* [Categories](./categories/) page (list of all posts with category associations)
 
 Take a look at some basic content and it's default/current styling:
 
