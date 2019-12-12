@@ -9,6 +9,14 @@ This is an **About** sub page.
 
 A static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
 
+## Tests
+
+Links to sub pages currently being tested:
+
+* [Log](/log/) page
+* [Posts](/posts/) page (list of all posts)
+* [Categories](/categories/) page (list of all posts with category associations)
+
 Take a look at some basic content and it's default/current styling:
 
 # Heading
