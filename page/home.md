@@ -1,3 +1,8 @@
+---
+layout: page
+title: Home
+permalink: /
+---   
 # NMA Static Generated Test Site w/ Netlify CMS
 
 ### Build and Auto-Deploy Using Jekyll, Github, + Netlify

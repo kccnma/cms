@@ -3,6 +3,7 @@ layout: page
 thumbnail: /assets/img/uploads/placeholder-2x1.gif
 title: About
 permalink: /about/
+mainnavitem: true
 ---
 This is an **About** sub page.
 

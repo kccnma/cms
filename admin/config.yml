@@ -29,4 +29,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false} 
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Permalink", name: "permalink", widget: "string", default: "/{{slug}}"}
+      - {label: "Add to the Main Nav?", name: "mainnavitem", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
