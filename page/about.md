@@ -7,7 +7,7 @@ mainnavitem: true
 ---
 This is an **About** sub page.
 
-A static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. 
+A static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. Updated again on 12-16-19.
 
 ## Tests
 
