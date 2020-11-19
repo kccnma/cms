@@ -43,6 +43,7 @@ $ jekyll build
 
 ### Log:
 
+* Fixed build error (removed collections meta)
 * Upon content change via CMS, the [Netlify hosted static site](https://nma.netlify.com) is not auto-updating (NEED TO RETEST AGAIN), although the [github repo](https://github.com/kccnma/cms/) files are updating, along with the [github pages hosted static site](https://kccnma.github.io/cms/).
 
   * Netlify-hosted static site currently requires a manual deploy (via netlify admin interface). This was not always the case.
