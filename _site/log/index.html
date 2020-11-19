@@ -87,6 +87,31 @@
     <h2 id="updateschanges">Updates/changes:</h2>
 
 <ul>
+  <li>11-18-2020
+    <ul>
+      <li>Fixed build error (removed collections meta)</li>
+    </ul>
+  </li>
+  <li>04-16-2020 (?)
+    <ul>
+      <li>Upon content change via CMS, the <a href="https://nma.netlify.com">Netlify hosted static site</a> is not auto-updating (NEED TO RETEST AGAIN), although the <a href="https://github.com/kccnma/cms/">github repo</a> files are updating, along with the <a href="https://kccnma.github.io/cms/">github pages hosted static site</a>.
+        <ul>
+          <li>Netlify-hosted static site currently requires a manual deploy (via netlify admin interface). This was not always the case.</li>
+          <li>This could be interpreted as a good thing, if we use the gh-pages site as a staging server and the netlify site as the production server.</li>
+        </ul>
+      </li>
+      <li>New posted are not working when added via Netlify CMS interface.
+        <ul>
+          <li>Old posted can be modified OK.</li>
+          <li>New posts are able to be added/created OK (via the admin cms interface), but they are not viewable via the static generated site.
+            <ul>
+              <li>Observation: new posted do not get a date time-stamp at the beginning of the md file name.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li>12-11-2019
     <ul>
       <li>Fixed auto-deployment issues (build and web hooks)</li>

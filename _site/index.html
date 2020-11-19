@@ -69,88 +69,17 @@
 <p>layout: page
 title: Home
 permalink: /
+mainnavitem: false
 —</p>
 <h1 id="nma-static-generated-test-site-w-netlify-cms">NMA Static Generated Test Site w/ Netlify CMS</h1>
 
 <h3 id="build-and-auto-deploy-using-jekyll-github--netlify">Build and Auto-Deploy Using Jekyll, Github, + Netlify</h3>
 
-<p>This is a temporary dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using <a href="https://jekyllrb.com/">Jekyll</a>, it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.</p>
-
-<h3 id="links">Links</h3>
+<p>This is a dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using <a href="https://jekyllrb.com/">Jekyll</a>, it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators.</p>
 
 <ul>
-  <li><a href="https://github.com/kccnma/cms">NMA CMS Github Repo</a></li>
-  <li><a href="https://nma.netlify.com/admin/">NMA CMS Admin Login</a></li>
+  <li>Learn more on the <a href="about/">About page</a></li>
 </ul>
-
-<h3 id="instructions">Instructions</h3>
-
-<h4 id="to-develop-the-site-and-manage-content-locally">To develop the site and manage content locally:</h4>
-
-<ul>
-  <li>Clone the <a href="https://github.com/kccnma/cms">NMA CMS Repo</a> via Github</li>
-  <li>Use your Terminal/CLI to cd to the the project directory and run Jekyll locally</li>
-</ul>
-
-<p>When developing locally:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll serve
-</code></pre></div></div>
-
-<p>When ready to deploy:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll build
-</code></pre></div></div>
-
-<h4 id="to-manage-content-online-via-the-admin-cms">To manage content online via the Admin CMS:</h4>
-
-<ul>
-  <li>Login to the <a href="https://nma.netlify.com/admin/">NMA CMS</a> via your Netlify Identity
-    <ul>
-      <li>No Login? Create an account at <a href="https://app.netlify.com">Netlify</a> then contact NMA for access.</li>
-    </ul>
-  </li>
-  <li>Edit Existing Pages/Posts or Create New Ones via Your Browser</li>
-</ul>
-
-<h3 id="log">Log:</h3>
-
-<ul>
-  <li>Upon content change via CMS, the <a href="https://nma.netlify.com">Netlify hosted static site</a> is not auto-updating, although the <a href="https://github.com/kccnma/cms/">github repo</a> files are updating, along with the <a href="https://kccnma.github.io/cms/">github pages hosted static site</a>.
-    <ul>
-      <li>Netlify-hosted static site currently requires a manual deploy (via netlify admin interface). This was not always the case.</li>
-      <li>This could be interpreted as a good thing, if we use the gh-pages site as a staging server and the netlify site as the production server.</li>
-    </ul>
-  </li>
-  <li>New posted are not working when added via Netlify CMS interface.
-    <ul>
-      <li>Old posted can be modified OK.</li>
-      <li>New posts are able to be added/created OK (via the admin cms interface), but they are not viewable via the static generated site.
-        <ul>
-          <li>Observation: new posted do not get a date time-stamp at the beginning of the md file name.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Further testing needed (added to to-do list)
-    <ul>
-      <li>need to address home page front-matter showing up (need to generate the home page correctly instead of an include)</li>
-      <li>HOLD - need to re-link netlify and github repo?</li>
-      <li>DONE - <del>need to manually add/create/edit netlify webhook?</del>
-        <ul>
-          <li>The fix:
-            <ul>
-              <li>new Netlify build hook created via Netlify App on 12-11-19</li>
-              <li>old GitHub webhook updated (url) on 12-11-19 (to match the new Netlify build hook)</li>
-              <li>NEW SETUP TESTED + WORKED on 12-11-19</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
 
     </div>
   </main><footer class="site-footer h-card">

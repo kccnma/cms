@@ -17,6 +17,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: "string", required: false}
+      - {label: "Tags",
+          name: "tags",
+          widget: "select",
+          multiple: true,
+          options: ["UI", "UX", "Frontend Web Development"],
+          required: false
+        }
   - name: "page" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Page" # Used in the UI, ie.: "New Post"
     folder: "page" # The path to the folder where the documents are stored

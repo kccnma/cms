@@ -7,9 +7,44 @@ mainnavitem: true
 ---
 This is an **About** sub page.
 
-A static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. Updated again on 12-16-19.
+This is a static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. This is a dev test for a potentially new static static website for the KCC New Media Arts Program. It is set up to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators. 
 
-## Tests
+### Links
+
+* [NMA CMS Github Repo](https://github.com/kccnma/cms)
+* [NMA CMS Admin Login](https://nma.netlify.com/admin/)
+
+### Instructions
+
+#### To develop the site and manage content locally:
+
+* Clone the [NMA CMS Repo](https://github.com/kccnma/cms) via Github
+* Use your Terminal/CLI to cd to the the project directory and run Jekyll locally 
+
+When developing locally:
+
+```
+$ jekyll serve
+```
+
+When ready to deploy:
+
+```
+$ jekyll build
+```
+
+#### To manage content online via the Admin CMS:
+
+* Login to the [NMA CMS](https://nma.netlify.com/admin/) via your Netlify Identity
+
+  * No Login? Create an account at [Netlify](https://app.netlify.com) then contact NMA for access.
+* Edit Existing Pages/Posts or Create New Ones via Your Browser
+
+### Log:
+
+* See the [log page](https://kccnma.github.io/cms/log/).
+
+### Tests
 
 Links to sub pages currently being tested:
 
