@@ -7,6 +7,8 @@ permalink: /log/
 
 * 11-18-2020
   * Fixed build error (removed collections meta)
+  * Tried to add tags (failed)
+    * Added tags to admin UI OK, failed to get them to appear on a tags sub page
 
 * 04-16-2020 (?)
   * Upon content change via CMS, the [Netlify hosted static site](https://nma.netlify.com) is not auto-updating (NEED TO RETEST AGAIN), although the [github repo](https://github.com/kccnma/cms/) files are updating, along with the [github pages hosted static site](https://kccnma.github.io/cms/).
