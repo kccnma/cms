@@ -7,7 +7,7 @@ mainnavitem: true
 ---
 This is an **About** sub page.
 
-This is a static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. This is a dev test for a potentially new static static website for the KCC New Media Arts Program. It is set up to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators. 
+This is a static site is generated using [Jekyll](https://jekyllrb.com/) and was initialized via a basic Jekyll starter site that uses the [Minima](https://github.com/jekyll/minima) theme. This is a dev test for a potentially new static static website for the KCC New Media Arts Program. It is set up to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators (e.g. non-coding faculty). 
 
 ### Links
 
@@ -76,10 +76,13 @@ This is a yet another paragraph. Vivamus eu mollis velit. Maecenas id massa libe
 
 * List Item
 * List Item
+
   * Nested Unordered List:
+
     * List Item
     * List Item
   * Nested Ordered List:
+
     1. List Item
     2. List Item
     3. List Item
@@ -89,10 +92,13 @@ This is a yet another paragraph. Vivamus eu mollis velit. Maecenas id massa libe
 
 * List Item
 * List Item
+
   * Nested Unordered List:
+
     * List Item
     * List Item
   * Nested Ordered List:
+
     1. List Item
     2. List Item
     3. List Item
