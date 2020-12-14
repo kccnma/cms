@@ -4,12 +4,14 @@ title: Home
 permalink: /
 mainnavitem: false
 ---
-#### NMA Static Generated Test Site w/ Netlify CMS
+Kapiolani Community College
 
-### Build and Auto-Deploy Using Jekyll, Github, + Netlify
+# New Media Arts
 
-This is a dev test for a potentially new static generatid website for the KCC New Media Arts Program. Built using [Jekyll](https://jekyllrb.com/), it is setup to auto-deploy to Netlify via Github or via a Netlify CMS front-end admin interface (that uses Netlify Identity for authentication) for non-technical content creators. 
+The New Media Arts (NMA) program is a two year AS degree program at Kapi‘olani Community College in Honolulu, Hawaii. Our mission is to prepare students for employment in the fields of interface design and animation.
 
-#### Hello Interns!
+[Learn More About the NMA Program](/about/)
 
-* Learn more on the [About page](about/)
+[View Student Projects](/gallery/)
+
+[NMA Degree & Curriculum](/degree/)
